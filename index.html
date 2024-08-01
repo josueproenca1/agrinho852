@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CaC</title>
+  <link rel="stylesheet" href="img/reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="img/styles.css">
+  <link rel="stylesheet" href="img/topicos.css">
+  <link rel="stylesheet" href="img/rodapé.css">
+  <link rel="stylesheet" href="img/header.css">
+  <link rel="stylesheet" href="img/contato.css">
+  <link rel="stylesheet" href="img/carrossel.css">
+  <link rel="stylesheet" href="img/banner.css">
+  
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">Categorias (clik aqui)</li>
+        <li class="lista-menu__item">
+          <a href="https://www.mercadodasemente.com.br/" class="lista-menu__link">Sementes (mercado da semente)</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="https://www.plantamundo.com/vegetais/?mpage=2" class="lista-menu__link">Vegetais (planeta mundo)</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="https://www.plantamundo.com/search/?q=frutas&mpage=2" class="lista-menu__link">Frutas (planeta mundo)</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="https://www.plantamundo.com/search/?q=verdura" class="lista-menu__link">Verduras (planeta mundo)</a>
+        </li>
+      </ul>
+    </div>
+    <div class="container">
+      <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
+      <a href="#"><img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem"></a>
+      <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+    <p class="banner__texto">compre os melhores produtos</p>
+    <input type="search" class="banner__pesquisa" placeholder="O que deseja comprar">
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Ferramentas Agrícolas</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="ferramentas1.png" alt="Ferramenta agrícola 1"></div>
+        <div class="swiper-slide"><img src="ferramentas2.png" alt="Ferramenta agrícola 2"></div>
+        <div class="swiper-slide"><img src="ferramentas3.png" alt="Ferramenta agrícola 3"></div>
+        <div class="swiper-slide"><img src="ferramentas4.png" alt="Ferramenta agrícola 4"></div>
+        <div class="swiper-slide"><img src="ferramentas5.png" alt="Ferramenta agrícola 5"></div>
+        <div class="swiper-slide"><img src="ferramentas6.png" alt="Ferramenta agrícola 6"></div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="card">
+      <div class="card__descrição">
+        <div class="descrição">
+          <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+          <h2 class="descrição__titulo-livro">Ferramenta Multifuncional</h2>
+          <p class="descrição__texto">
+            Uma ferramenta essencial para facilitar várias tarefas agrícolas.
+          </p>
+        </div>
+      </div>
+      <div class="card__botões">
+        <ul class="botões">
+          <li class="botões__item">
+            <img src="img/Favoritos.svg" alt="Favoritar ferramenta" />
+          </li>
+          <li class="botões__item">
+            <img src="img/Compras.svg" alt="Adicionar no carrinho de compras" />
+          </li>
+        </ul>
+        <a href="#" class="botões__ancora">Saiba mais</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Mais vendidos</h2>
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="imagem1.png" alt="Mais vendido 1"></div>
+        <div class="swiper-slide"><img src="imagem2.png" alt="Mais vendido 2"></div>
+        <div class="swiper-slide"><img src="imagem3.png" alt="Mais vendido 3"></div>
+        <div class="swiper-slide"><img src="imagem4.png" alt="Mais vendido 4"></div>
+        <div class="swiper-slide"><img src="imagem5.png" alt="Mais vendido 5"></div>
+        <div class="swiper-slide"><img src="imagem6.png" alt="Mais vendido 6"></div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </section>
+
+  <section class="contato">
+    <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+    <p class="contato__texto">
+    </p>
+    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email" />
+  </section>
+
+  <hr />
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+      },
+    });
+  </script>
+</body>
+
+</html>
